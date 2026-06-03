@@ -1,3 +1,39 @@
+header {
+    /* width: 100%; */
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: relative;
+    z-index: 100;
+}
+       
+.logo img {
+    width: 200px;
+    height: 90px;
+    /* border-radius: 45px; */
+    display: block;
+}
+        
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.nav ul li :hover {
+    color: #FF6B35;
+}
+
 h1{
     text-align: center;
     color: teal;
