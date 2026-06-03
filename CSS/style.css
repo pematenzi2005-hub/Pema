@@ -1,5 +1,4 @@
 header {
-    /* width: 100%; */
     background: black;
     color: white;
     display: flex;
@@ -13,7 +12,6 @@ header {
 .logo img {
     width: 200px;
     height: 90px;
-    /* border-radius: 45px; */
     display: block;
 }
         
@@ -30,7 +28,7 @@ header {
     transition: 0.3s ease;
 }
 
-.nav ul li :hover {
+.nav ul li a:hover {
     color: #FF6B35;
 }
 
