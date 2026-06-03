@@ -2,3 +2,8 @@ h1{
     text-align: center;
     color: teal;
 }
+
+img{
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px;
+}
