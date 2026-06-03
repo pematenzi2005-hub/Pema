@@ -7,4 +7,5 @@ img{
     border-radius: 15px;
     box-shadow: 0 0 5px 5px black;
     margin: auto;
+    border: 4px solid black;
 }
